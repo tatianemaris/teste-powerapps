@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.0",
+  "id": "102ec823-31bc-4089-a19c-79a9c15ac2ac",
+  "packageName": "com.microsoft.powerapps.102ec823-31bc-4089-a19c-79a9c15ac2ac",
+  "devicePermissions": [
+    "media",
+    "geolocation",
+    "notifications",
+    "midi",
+    "openExternal"
+  ],
+  "developer": {
+    "name": "PowerApps",
+    "websiteUrl": "https://www.powerapps.com",
+    "privacyUrl": "https://portal.office.com/account#security",
+    "termsOfUseUrl": "http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31"
+  },
+  "name": {
+    "short": "Teste App 1",
+    "full": "Teste App 1"
+  },
+  "description": {
+    "short": "Descrição digitada pelo usuário.",
+    "full": "Descrição digitada pelo usuário."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#812A8D",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://apps.powerapps.com/teams/settings/102ec823-31bc-4089-a19c-79a9c15ac2ac",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "102ec823-31bc-4089-a19c-79a9c15ac2ac",
+      "name": "Teste App 1",
+      "contentUrl": "https://apps.powerapps.com/play/102ec823-31bc-4089-a19c-79a9c15ac2ac?tenantId=31791453-262f-455c-8a87-b8b70aa8c51e&source=teamstab&hint=d7c20648-53cd-44d5-a511-b2d507a513ef&locale={locale}&channelId={channelId}&channelType={channelType}&chatId={chatId}&groupId={groupId}&hostClientType={hostClientType}&isFullScreen={isFullScreen}&subEntityId={subEntityId}&teamId={teamId}&teamType={teamType}&theme={theme}&userTeamRole={userTeamRole}",
+      "websiteUrl": "https://apps.powerapps.com/play/102ec823-31bc-4089-a19c-79a9c15ac2ac?tenantId=31791453-262f-455c-8a87-b8b70aa8c51e",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "validDomains": [
+    "*.powerapps.com"
+  ],
+  "webApplicationInfo": {
+    "id": "9362bc14-3e81-4ef9-8b77-f1c40afe68e0",
+    "resource": "https://apps.powerapps.com"
+  }
+}
